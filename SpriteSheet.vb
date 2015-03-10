@@ -1,5 +1,5 @@
 
-'CREATE
+' Create
 
 ' Flags is the images dir
 Dim Images = IO.Directory.GetFiles("Flags")
@@ -11,7 +11,7 @@ Next
 End Using
 Bm.Save("Img.png", Imaging.ImageFormat.Png)
 
-'EXTRACT
+' Extract
 
 Dim Img = Image.FromFile("Img.png")
 Dim Frame As New Bitmap(32, 32)
